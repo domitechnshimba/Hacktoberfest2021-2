@@ -9,15 +9,13 @@ P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 
 ![Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
 
-
-# 📌 Videos:
+# 📌 Videos
 
 - [Hacktoberfest Intro](https://youtu.be/OsAFX_ZbgaE)
 - [How to pull request [Overview]](https://youtu.be/DIj2q02gvKs)
 - [Merge Conflict / comment](https://youtu.be/zOx5PJTY8CI)
 
-
-# Contribution rules📚:
+# Contribution rules📚
 
 - The project must work when opening Contributors.html
 - You are allowed to make pull requests that break the rules. We just merge it ;)
@@ -27,8 +25,7 @@ P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 - Add your name to the Contributors.html file
 - Try to keep pull requests small to minimize merge conflicts
 
-
-## Getting Started 🤗:
+## Getting Started 🤗
 
 - Fork this repo (button on top)
 - Clone on your local machine
@@ -37,7 +34,9 @@ P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 git clone https://github.com/fineanmol/Hacktoberfest2021.git
 
 ```
+
 - Navigate to project directory.
+
 ```
 cd Hacktoberfest2021
 ```
@@ -47,37 +46,44 @@ cd Hacktoberfest2021
 ```markdown
 git checkout -b my-new-branch
 ```
+
 - Add your contribution
+
 ```
 git add .
 ```
+
 - Commit your changes.
 
 ```markdown
 git commit -m "Relevant message"
 
 ```
-- Then push 
+
+- Then push
+
 ```
 git push origin my-new-branch
 ```
-- Create a new pull request from your forked repository
 
+- Create a new pull request from your forked repository
 
 ## Avoid Conflicts (Syncing your fork)
 
-An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.   
+An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.
 
 ```terminal
 git remote add upstream https://github.com/fineanmol/Hacktoberfest2021
 ```
 
 You can verify that the new remote has been added by typing
+
 ```terminal
 git remote -v
 ```
 
 To pull any new changes from your parent repo simply run
+
 ```terminal
 git merge upstream/master
 ```
@@ -86,8 +92,7 @@ This will give you any eventual conflicts and allow you to easily solve them in 
 
 For more information on syncing forks [read this article from Github](https://help.github.com/articles/syncing-a-fork/).
 
-
-# FAQs 
+# FAQs
 
 - Who can contribute?
   - Anyone with a github account and who is signed up for
@@ -111,7 +116,5 @@ For more information on syncing forks [read this article from Github](https://he
   - It is from 1st october to 31st october 2021...
 - What is the event for?
   - For the open source community engagement
-
-
 
 ###### *We will do our best to merge as much as possible from everyone. However, time is limited and the merge conflicts are horrible :astonished: <3*
